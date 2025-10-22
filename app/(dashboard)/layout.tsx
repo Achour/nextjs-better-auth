@@ -7,6 +7,8 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { auth } from "@/lib/auth"; // path to your Better Auth server instance
 import { headers } from "next/headers";
 
+import { redirect } from "next/navigation";
+
 export default async function layout({
   children,
 }: Readonly<{
@@ -17,7 +19,7 @@ export default async function layout({
   });
 
   if (!session?.user) {
-    return;
+    return redirect("/login");
   }
 
   return (
