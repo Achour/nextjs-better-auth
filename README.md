@@ -6,7 +6,7 @@
 
 ## 📌 Features
 
-- ✅ **Next.js 15** with App Router
+- ✅ **Next.js 16** with App Router
 - ✅ **Better Auth** for authentication
 - ✅ **Prisma** for database management
 - ✅ **shadcn/ui** for UI components
