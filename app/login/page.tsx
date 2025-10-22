@@ -1,22 +1,22 @@
 import { LoginForm } from "@/components/auth/login-form";
 
 
-// import { auth } from "@/lib/auth"; // path to your Better Auth server instance
-// import { headers } from "next/headers";
+import { auth } from "@/lib/auth"; // path to your Better Auth server instance
+import { headers } from "next/headers";
 
-// import { redirect } from "next/navigation";
-
-
-export default function Page() {
+import { redirect } from "next/navigation";
 
 
-  // const session = await auth.api.getSession({
-  //   headers: await headers(), // you need to pass the headers object.
-  // });
+export default async function Page() {
 
-  // if (session?.user) {
-  //   redirect('/dashboard');
-  // }
+
+  const session = await auth.api.getSession({
+    headers: await headers(), // you need to pass the headers object.
+  });
+
+  if (session?.user) {
+    redirect('/dashboard');
+  }
 
   return (
     <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
