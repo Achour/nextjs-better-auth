@@ -29,19 +29,19 @@ export default async function page() {
               <ModeToggle />
               {session?.user ? (
                 <a href="/dashboard">
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" >
                     Dashboard
                   </Button>
                 </a>
               ) : (
                 <>
                   <Link href="/login">
-                    <Button variant="outline" size="sm">
+                    <Button variant="outline">
                       Log in
                     </Button>
                   </Link>
                   <Link href="/signup">
-                    <Button size="sm">Sign up</Button>
+                    <Button >Sign up</Button>
                   </Link>
                 </>
               )}
