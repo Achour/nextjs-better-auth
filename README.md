@@ -1,3 +1,5 @@
+# Note: If you plan to host this project on a VPS, check the `vps` branch for VPS-specific setup and configuration. The `vps` branch uses Next.js 16.
+
 # Next.js + Better Auth + Prisma Starter Kit
 
 🚀 A starter kit for building modern web applications with **Next.js 15**, **Better Auth**, **Prisma**, and **shadcn/ui**.
