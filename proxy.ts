@@ -12,9 +12,9 @@ export async function proxy(request: NextRequest) {
   }
 
   // Redirect unauthenticated users trying to access protected routes
-  // if (!sessionCookie && pathname.startsWith("/dashboard")) {
-  //   return NextResponse.redirect(new URL("/signup", request.url));
-  // }
+  if (!sessionCookie && pathname.startsWith("/dashboard")) {
+    return NextResponse.redirect(new URL("/signup", request.url));
+  }
 
   return NextResponse.next();
 }
