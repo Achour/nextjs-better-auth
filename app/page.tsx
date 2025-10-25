@@ -9,6 +9,7 @@ import {
   IconLockSquareRoundedFilled,
   IconShieldCheckFilled,
 } from "@tabler/icons-react";
+import { Coffee } from "lucide-react";
 
 export default async function page() {
   const session = await auth.api.getSession({
@@ -40,11 +41,17 @@ export default async function page() {
                       Log in
                     </Button>
                   </Link>
-                  <Link href="/signup">
+                  {/* <Link href="/signup">
                     <Button size="sm">Sign up</Button>
-                  </Link>
+                  </Link> */}
                 </>
               )}
+              <Link target="_blank" href="https://buymeacoffee.com/achour">
+                <Button className="bg-yellow-400 text-black" size="sm">
+                  <Coffee />
+                  Buy me a coffee
+                </Button>
+              </Link>
             </div>
           </nav>
         </div>
