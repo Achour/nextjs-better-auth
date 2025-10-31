@@ -2,7 +2,7 @@
 
 🚀 A starter kit for building modern web applications with **Next.js 16**, **Better Auth**, **Prisma**, and **shadcn/ui**.
 
-🔗 **[Live Demo](https://nextjs-better-auth-starterkit.vercel.app)**
+🔗 **[Live Demo](https://auth.achour.dev/)**
 
 <a href="https://www.buymeacoffee.com/achour" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
