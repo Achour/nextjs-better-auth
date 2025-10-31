@@ -1,8 +1,6 @@
-# Note: If you plan to host this project on a VPS, check the `vps` branch for VPS-specific setup and configuration. The `vps` branch uses Next.js 16.
-
 # Next.js + Better Auth + Prisma Starter Kit
 
-🚀 A starter kit for building modern web applications with **Next.js 15**, **Better Auth**, **Prisma**, and **shadcn/ui**.
+🚀 A starter kit for building modern web applications with **Next.js 16**, **Better Auth**, **Prisma**, and **shadcn/ui**.
 
 🔗 **[Live Demo](https://nextjs-better-auth-starterkit.vercel.app)**
 
@@ -10,7 +8,7 @@
 
 ## 📌 Features
 
-- ✅ **Next.js 15** with App Router
+- ✅ **Next.js 16** with App Router
 - ✅ **Better Auth** for authentication
 - ✅ **Prisma** for database management
 - ✅ **shadcn/ui** for UI components
@@ -55,7 +53,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Next.js 15** - React framework
+- **Next.js 16** - React framework
 - **Better Auth** - Authentication
 - **Prisma** - Database ORM
 - **shadcn/ui** - UI components
