@@ -24,7 +24,7 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar";
-import { user } from "@prisma/client";
+import { user } from "@src/generated/prisma/client";
 import LogoutButton from "./auth/logout-button";
 
 export function NavUser({ user }: { user: user }) {
