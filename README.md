@@ -10,7 +10,7 @@
 
 - ✅ **Next.js 16** with App Router
 - ✅ **Better Auth** for authentication
-- ✅ **Prisma** for database management
+- ✅ **Prisma** for database management (Rust-Free Engine)
 - ✅ **shadcn/ui** for UI components
 - ✅ **Dashboard** for authenticated users
 - ✅ TypeScript support
@@ -55,7 +55,7 @@
 
 - **Next.js 16** - React framework
 - **Better Auth** - Authentication
-- **Prisma** - Database ORM
+- **Prisma** - Database ORM (Rust-Free Engine)
 - **shadcn/ui** - UI components
 - **TypeScript** - Type safety
 
