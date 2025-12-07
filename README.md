@@ -15,6 +15,11 @@
 - ✅ **Dashboard** for authenticated users
 - ✅ TypeScript support
 
+## 🆕 Recent Updates
+
+- **Prisma 7**: Updated to the latest version `^7.1.0`.
+- **Tailwind CSS v4**: Now running on Tailwind CSS v4.
+
 ## 📦 Installation
 
 1. Clone the repository:
@@ -55,7 +60,8 @@
 
 - **Next.js 16** - React framework
 - **Better Auth** - Authentication
-- **Prisma** - Database ORM (Rust-Free Engine)
+- **Prisma** - Database ORM (v7)
+- **Tailwind CSS 4** - Utility-first CSS framework
 - **shadcn/ui** - UI components
 - **TypeScript** - Type safety
 
