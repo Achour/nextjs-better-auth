@@ -1,14 +1,10 @@
 generator client {
-  provider   = "prisma-client" // ESM-first
-  engineType = "client"        // No rust engines
+  provider = "prisma-client"
   output     = "../src/generated/prisma"
 }
-
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
-
 model account {
   id                    String    @id
   accountId             String
